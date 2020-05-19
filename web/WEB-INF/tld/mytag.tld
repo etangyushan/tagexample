@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+        version="2.0">
+
+    <tlib-version>4.0</tlib-version>
+    <short-name>grid</short-name>
+    <tag>
+        <!-- 标签名字 -->
+        <name>loop</name>
+        <!-- 处理类 -->
+        <tag-class>test.jsp.tags.BodyTagExample</tag-class>
+        <!-- 标签的内容体 -->
+        <body-content>JSP</body-content>
+
+        <attribute>
+            <name>counts</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+
+</taglib>
