@@ -1,0 +1,6 @@
+逻辑过程：
+java类 -> tld文件 -> web.xml -> jsp文件
+java类：继承了 BodyTagSupport 用于处理标签显示的整个过程，从开始显示到显示结束。
+tld文件：标签的名字，对应的 java 类，属性
+web.xml：自定义标签文件位置和 jsp 引入时的 uri名称
+jsp文件：引入自定义标签，使用web.xml中配置的uri名称。自定义一个前缀名称，使用tld文件中定义的标签名称。
